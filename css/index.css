@@ -317,3 +317,7 @@ img {
   font-weight: bold;
   color: #FFFFFF;
 }
+.btn:hover {
+  background-color: #1fc8e3;
+  cursor: pointer;
+}
