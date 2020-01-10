@@ -295,9 +295,21 @@ img {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 500px) {
+  .home .content-pick {
+    flex-direction: column;
+    width: 100%;
+  }
+}
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+@media (max-width: 500px) {
+  .home .content-pick .destination {
+    width: 80%;
+    align-self: center;
+  }
 }
 @media (max-width: 500px) {
   .home {
@@ -320,4 +332,9 @@ img {
 .btn:hover {
   background-color: #1fc8e3;
   cursor: pointer;
+}
+@media (max-width: 500px) {
+  .btn {
+    width: 100%;
+  }
 }
